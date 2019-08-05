@@ -18,7 +18,11 @@
   "author": "sunstrous",
   "license": "MIT",
   "devDependencies": {
+    "@electron/typescript-definitions": "^8.6.1",
     "electron": "^6.0.0",
     "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "element-ready": "^4.1.0"
   }
 }
