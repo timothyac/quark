@@ -1,0 +1,24 @@
+{
+  "name": "quark",
+  "version": "1.0.0",
+  "description": "Boilerplate for electron applications built with typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SunstroUS/quark.git"
+  },
+  "main": "dist",
+  "scripts": {
+    "start": "tsc && electron .",
+    "compile-type": "tsc"
+  },
+  "keywords": [
+    "electron",
+    "typescript"
+  ],
+  "author": "sunstrous",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.0.0",
+    "typescript": "^3.5.3"
+  }
+}
